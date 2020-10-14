@@ -1,0 +1,91 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage[vmargin=3cm,hmargin=3.cm]{geometry}
+\usepackage{parskip}
+\usepackage[runin]{abstract}
+\renewcommand{\abstitleskip}{1mm}
+
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+\usepackage{gensymb}
+
+\usepackage{multicol}
+
+\usepackage{graphicx}
+\usepackage{refstyle}
+\usepackage{float}
+\usepackage{amsmath} 
+\usepackage{siunitx}
+\usepackage[sorting=none]{biblatex}
+
+\addbibresource{Text/ref.bib}
+
+% Matlab imports, krävs en del innan \lstinput...
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf[C]{\thepage}
+\fancyhead[C]{EEMN21 - Introduction to Microfluidics and Lab-on-a-chip Systems}
+\fancyhead[R,L]{}
+\fancypagestyle{plain}{
+  \fancyhead{}
+}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage[table,xcdraw]{xcolor}
+\pagestyle{fancy}
+\usepackage{a4wide}
+\usepackage{mathtools}
+\usepackage{parskip}
+\usepackage{bm}
+
+\makeatletter
+
+\renewcommand*\maketitle{
+  {
+    \begin{center}
+      {\huge\bfseries \@title}\\
+      \vspace{5mm}
+      {\large \@author}
+    \end{center}
+    \vspace{2mm}
+  }
+}
+\makeatother
+
+\begin{document}
+\input{Text/0_Forsttasblad.tex}
+
+\section{Introduction}
+\input{Text/1_Introduction}
+
+\section{Methods}
+\input{Text/2_Methods}
+
+\section{Results}
+\input{Text/3_Results}
+
+\section{Discussion}
+\input{Text/4_Discussion}
+
+\section{Article Presentation Feedback}
+\input{Text/5_Presentation}
+
+\printbibliography
+
+\end{document}
