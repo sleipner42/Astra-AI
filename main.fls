@@ -42,8 +42,6 @@ INPUT /usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 INPUT /usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /usr/share/texmf-dist/tex/latex/abstract/abstract.sty
-INPUT /usr/share/texmf-dist/tex/latex/abstract/abstract.sty
 INPUT /usr/share/texmf-dist/tex/latex/lm/lmodern.sty
 INPUT /usr/share/texmf-dist/tex/latex/lm/lmodern.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/fontenc.sty
@@ -238,16 +236,6 @@ OUTPUT main.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT Text/1_Introduction.tex
-INPUT Text/1_Introduction.tex
-INPUT Text/2_Methods.tex
-INPUT Text/2_Methods.tex
-INPUT Text/3_Results.tex
-INPUT Text/3_Results.tex
-INPUT Text/4_Discussion.tex
-INPUT Text/4_Discussion.tex
-INPUT Text/5_Presentation.tex
-INPUT Text/5_Presentation.tex
 INPUT main.aux
 INPUT main.run.xml
 OUTPUT main.run.xml

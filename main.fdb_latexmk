@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1602699587 "main.bcf" "main.bbl" "main" 1602699587
-  "main.bcf" 1602699587 100324 0475234378175b8f1a1626c97f26a23a "pdflatex"
+["biber main"] 1602699587 "main.bcf" "main.bbl" "main" 1602700998
+  "main.bcf" 1602700998 100324 0475234378175b8f1a1626c97f26a23a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1602699586 "main.tex" "main.pdf" "main" 1602699587
+["pdflatex"] 1602700998 "main.tex" "main.pdf" "main" 1602700998
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1591545468 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1591545468 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm" 1591545468 12088 d750ac78274fa7c9f73ba09914c04f8a ""
@@ -51,7 +51,6 @@
   "/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty" 1591545468 13807 952b0226d4efca026f0e19dd266dcc22 ""
   "/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty" 1591545468 18552 1e1cc7b75da0dfaacce7cdcb27d306bf ""
   "/usr/share/texmf-dist/tex/latex/a4wide/a4wide.sty" 1591524854 1635 717cb53b4323c7ff0cf7f675b11dfe05 ""
-  "/usr/share/texmf-dist/tex/latex/abstract/abstract.sty" 1591524854 5128 640a4c0ff76b3e578a4c5482af27ec14 ""
   "/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1591545468 2211 ca7ce284ab93c8eecdc6029dc5ccbd73 ""
   "/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty" 1591545468 4161 7f6eb9092061a11f87d08ed13515b48d ""
   "/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty" 1591545468 85660 baee036978c7a91f4e2bba43f05e5945 ""
@@ -136,19 +135,14 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1591545468 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1600704583 334590 b620d63dea36e0ddeb314cd3efefc8a6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1600704572 2514050 67127729ecb70b71215d192390d8fba0 ""
-  "Text/0_Forsttasblad.tex" 1602691862 641 b2c201d41d0a9f134e830d212fe3bc8b ""
-  "Text/1_Introduction.tex" 1602699446 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Text/2_Methods.tex" 1602699446 2 e1c06d85ae7b8b032bef47e42e4c08f9 ""
-  "Text/3_Results.tex" 1602699446 94 e1ed4066f8b2c430fa049afb58386a21 ""
-  "Text/4_Discussion.tex" 1602699446 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Text/5_Presentation.tex" 1602691862 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.aux" 1602699587 1048 6596629657716082ac3452ddd7994e11 "pdflatex"
+  "Text/0_Forsttasblad.tex" 1602700873 676 c97e08e6cf73883eb02aa40fe4d1bf0f ""
+  "main.aux" 1602700998 833 d3761d63ecfb43a9b17713c511267eef "pdflatex"
   "main.bbl" 1602699587 466 f7f239c736cf01ac6ce7bd829f9b3c7b "biber main"
-  "main.run.xml" 1602699587 2303 ded5a13df8d308f00c15ded1a72be532 "pdflatex"
-  "main.tex" 1602699585 1751 c352b76ef22bca684383c3b3680a33cc ""
+  "main.run.xml" 1602700998 2303 ded5a13df8d308f00c15ded1a72be532 "pdflatex"
+  "main.tex" 1602700998 1527 a8b5e0cb584326ae5287ddf1166d0f9e ""
   (generated)
-  "main.pdf"
-  "main.run.xml"
-  "main.aux"
-  "main.bcf"
   "main.log"
+  "main.bcf"
+  "main.pdf"
+  "main.aux"
+  "main.run.xml"
